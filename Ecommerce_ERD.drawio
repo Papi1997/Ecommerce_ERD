@@ -16,8 +16,23 @@
         <mxCell id="dKdSaXE48SgPbhcamS2K-63" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="50" y="70" width="1590" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZbkTTMGB8ikg_We9SX0I-1" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZbkTTMGB8ikg_We9SX0I-1" value="Use ID(PK)&lt;div&gt;Full name&lt;/div&gt;&lt;div&gt;Email&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;CreatedaAt&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="150" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbkTTMGB8ikg_We9SX0I-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZbkTTMGB8ikg_We9SX0I-7" target="ZbkTTMGB8ikg_We9SX0I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbkTTMGB8ikg_We9SX0I-7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="258" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbkTTMGB8ikg_We9SX0I-8" value="USERS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbkTTMGB8ikg_We9SX0I-9" value="OrderID(PK)&lt;div&gt;USERID(FK)&lt;/div&gt;&lt;div&gt;OrderDate&lt;/div&gt;&lt;div&gt;TotalAmount&lt;/div&gt;&lt;div&gt;Status&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="350" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbkTTMGB8ikg_We9SX0I-11" value="Orders" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="323" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
